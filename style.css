@@ -206,9 +206,14 @@ header {
     display: block;
   }
 
+  header .row{
+
+        flex-direction: column;
+  }
+
   .row {
     display: flex;
-    flex-direction: column;
+
     justify-content: space-between;
   }
 
